@@ -1,7 +1,7 @@
 # Trends-in-new-private-apartment-sales-prices
 
 민간 아파트 서비스 플랫폼 
-##'토아'
+## '토아'
 ### 토아는 Trend Of Apartment의 약자 TOA로 공공데이터를 기반으로 한 아파트 서비스 플랫폼입니다.
 
 ### 지역 가격 추이 그래프 시각화
