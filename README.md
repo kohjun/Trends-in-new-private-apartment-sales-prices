@@ -13,9 +13,12 @@
 - 해당 지역의 특정 연도와 통화량 증가율, GDP(경제성장률)을 통해 아파트 분양가격을 예측
 ![image](https://github.com/kohjun/Trends-in-new-private-apartment-sales-prices/assets/82298792/b98d860a-77d4-48ff-8c80-15eb383a7f9a)
 
-### 새기능 추가가능
+### 지역 가격 비교
+- 두 지역의 지역을 비교하고 평균가격을 표시
 
-- 파이썬 Tkinter를 활용하여 만든 **객체 지향적 ** 프로그램
+
+
+- 파이썬 Tkinter를 활용하여 만든  **객체 지향적 **  프로그램
 - Main GUI를 동작하여 사용
 - DataLoad.py를 통해 csv파일을 읽어 pandas를 통해 데이터를 정리
 - RegionButton.py에는 선택된 지역의 데이터를 읽어 matplotlib를 통해 데이터를 시각화
