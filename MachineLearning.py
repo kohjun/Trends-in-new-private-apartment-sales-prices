@@ -24,7 +24,7 @@ class Input_MachineLearning:
     def __init__(self,ip1,ip2,ip3,ip4):
             
         # 본원통화 데이터 
-        exchange_df = pd.read_csv('본원통화(2015~2023).csv')
+        exchange_df = pd.read_csv('Trends-in-new-private-apartment-sales-prices-main\본원통화(2015~2023).csv')
 
         # '기간' 열을 분리하여 '연도'와 '월'로 나누기
         exchange_df[['연도', '월']] = exchange_df['기간'].str.split('-', expand=True)
@@ -37,7 +37,7 @@ class Input_MachineLearning:
         exchange_df = exchange_df.drop(columns=['기간'])
 
         # 신규 민간 아파트 분양가격 데이터
-        dt_load = DataLoad.RegionData('신규 민간아파트 분양가격.csv')
+        dt_load = DataLoad.RegionData('Trends-in-new-private-apartment-sales-prices-main\신규 민간아파트 분양가격.csv')
 
 
         # gdp 연도별 딕셔너리 형태
