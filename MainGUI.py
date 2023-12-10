@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from DataLoad import RegionData
 from tkinter import ttk
 import pandas as pd
+import CompareRegion
 import RegionButton
 import Calculate
 from mp3 import ContinuousMusicPlayer
@@ -12,12 +13,6 @@ from mp3 import ContinuousMusicPlayer
 
 # 지역 목록
 regions = ['서울','인천','경기','부산','대구','광주','대전','울산','세종','강원','충북','충남','전북','전남','경북','경남','제주']
-
-
-import tkinter as tk
-from tkinter import ttk
-import RegionButton
-import Calculate
 
 class MainGUI(tk.Tk):
     def __init__(self):
@@ -51,6 +46,11 @@ class MainGUI(tk.Tk):
         predict_button = tk.Button(self, text="지역 가격 예측", command=self.show_predict_event)
         predict_button.place(relx=0.2, rely=0.1, anchor="center")
 
+        # 지역 가격예측 이벤트
+        predict_button = tk.Button(self, text="지역 가격 비교", command=self.show_compare_event)
+        predict_button.place(relx=0.3, rely=0.1, anchor="center")
+
+
     def show_home(self):
         # 홈 버튼 눌렀을 때의 동작 (다른 기능 비활성화)
         for widget in self.winfo_children():
@@ -64,6 +64,9 @@ class MainGUI(tk.Tk):
     def show_predict_event(self):
         self.show_home()
         Calculate.ApartmentPricePredictor(self)
+    def show_compare_event(self):
+        self.show_home()
+        CompareRegion.CompareDisplayGraph(self)
 
 
 if __name__ == "__main__":
