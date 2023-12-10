@@ -9,7 +9,7 @@
 
 ![image](https://github.com/kohjun/Trends-in-new-private-apartment-sales-prices/assets/82298792/f18d1b86-f499-4589-83c9-10ec9bc1dc0d)
 
-### 지역 가격 그래프
+### 지역 가격 예측 산정
 - 해당 지역의 특정 연도와 통화량 증가율, GDP(경제성장률)을 통해 아파트 분양가격을 예측
 ![image](https://github.com/kohjun/Trends-in-new-private-apartment-sales-prices/assets/82298792/b98d860a-77d4-48ff-8c80-15eb383a7f9a)
 
