@@ -15,13 +15,17 @@
 
 ### 새기능 추가가능
 
+- 파이썬 Tkinter를 활용하여 만든 **객체 지향적 ** 프로그램
+- Main GUI를 동작하여 사용
+- DataLoad.py를 통해 csv파일을 읽어 pandas를 통해 데이터를 정리
+- RegionButton.py에는 선택된 지역의 데이터를 읽어 matplotlib를 통해 데이터를 시각화
+- MachingLearning.py와 Calulate.py는 선택된 지역의 예측 연도 통화량 증가율, 경제성장률을 입력하여 랜덤포레스트 분류기를 통한 머신러닝 훈련과 예측된 분양가격(제곱미터)으로 아파트 가격을 예상
 
-파이썬 Tkinter를 활용하여 만든 프로그램
 
 데이터 출처 : 통계청(https://kostat.go.kr/ansk/) , 공공 데이터 포털(https://www.data.go.kr/)
 
 
-음원 크레딧
+### 음원 크레딧
 이 영상은 뮤팟에서 제공한 음원 소스를 사용했습니다.
 Today's eating show- Download: mewc.at/songs/10026
 
