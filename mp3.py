@@ -23,6 +23,6 @@ class ContinuousMusicPlayer:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    music_file_path = "MP_오늘의 먹방.mp3"  # 실제 MP3 파일 경로로 변경
+    music_file_path = "Trends-in-new-private-apartment-sales-prices-main\MP_오늘의 먹방.mp3"  # 실제 MP3 파일 경로로 변경
     app = ContinuousMusicPlayer(root, music_file_path)
     root.mainloop()
