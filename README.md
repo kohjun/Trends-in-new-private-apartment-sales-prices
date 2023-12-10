@@ -15,6 +15,7 @@
 
 ### 지역 가격 비교
 - 두 지역의 지역을 비교하고 평균가격을 표시
+![image](https://github.com/kohjun/Trends-in-new-private-apartment-sales-prices/assets/82298792/1601d2e8-c35b-4d49-bf40-2f3c4e3bf9a9)
 
 <hr>
 
