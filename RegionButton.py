@@ -7,7 +7,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 class DisplayGraph:
     def __init__(self, root):
-        self.rgd = DataLoad.RegionData('신규 민간아파트 분양가격.csv')
+        self.rgd = DataLoad.RegionData('Trends-in-new-private-apartment-sales-prices-main\신규 민간아파트 분양가격.csv')
 
         # 현재 표시된 그래프를 저장하는 변수
         self.current_plot = None
@@ -41,7 +41,7 @@ class DisplayGraph:
             self.current_plot.get_tk_widget().destroy()
 
         # 모든 지역의 데이터를 저장
-        regionData = DataLoad.RegionData('신규 민간아파트 분양가격.csv')
+        regionData = DataLoad.RegionData('Trends-in-new-private-apartment-sales-prices-main\신규 민간아파트 분양가격.csv')
         # 선택된 지역만의 데이터를 저장
         selected_region_data = regionData.get_data_by_region(selected_region)
 
