@@ -24,7 +24,7 @@ class MainGUI(tk.Tk):
 
         # 초기 화면 설정
         self.home_screen()
-        music_file_path = "MP_오늘의 먹방.mp3"  # 실제 MP3 파일 경로로 변경
+        music_file_path = "Trends-in-new-private-apartment-sales-prices-main\MP_오늘의 먹방.mp3"  # 실제 MP3 파일 경로로 변경
         app = ContinuousMusicPlayer(self, music_file_path)
 
     def home_screen(self):
