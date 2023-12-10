@@ -20,3 +20,11 @@
 
 데이터 출처 : 통계청(https://kostat.go.kr/ansk/) , 공공 데이터 포털(https://www.data.go.kr/)
 
+
+음원 크레딧
+이 영상은 뮤팟에서 제공한 음원 소스를 사용했습니다.
+Today's eating show- Download: mewc.at/songs/10026
+
+🎫 추천인 코드: mewc.at/ref/4ktz
+위의 URL을 통해 구독하시면 2개월 추가 혜택!
+저와 함께 뮤팟 혜택을 받아요~🎁
